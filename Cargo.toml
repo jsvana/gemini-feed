@@ -3,11 +3,17 @@ name = "gemini-feed"
 version = "0.1.0"
 authors = ["Jay Vana <jaysvana@gmail.com>"]
 edition = "2018"
+readme = "README.md"
+description = "Parse gemini feed pages"
+repository = "https://github.com/jsvana/gemini-feed/"
+license = "MIT"
+keywords = ["gemini"]
+categories = ["api-bindings"]
 
 [dependencies]
-anyhow = "*"
-chrono = "*"
-lazy_static = "*"
-regex = "*"
-thiserror = "*"
-gemini-fetch = { path = "/home/jsvana/projects/gemini-fetch", version = "*" }
+anyhow = "1.0"
+chrono = "0.4"
+lazy_static = "1.4"
+regex = "1.4"
+thiserror = "1.0"
+gemini-fetch = "0.1"
