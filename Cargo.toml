@@ -1,0 +1,13 @@
+[package]
+name = "gemini-feed"
+version = "0.1.0"
+authors = ["Jay Vana <jaysvana@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "*"
+chrono = "*"
+lazy_static = "*"
+regex = "*"
+thiserror = "*"
+gemini-fetch = { path = "/home/jsvana/projects/gemini-fetch", version = "*" }
